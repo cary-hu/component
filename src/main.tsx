@@ -1,8 +1,8 @@
 import { h } from 'cary-tsx-dom';
-import type { SearchableSelectConfiguration } from './component/searchableSelect';
-import { SearchableSelect } from './component/searchableSelect';
+import type { SearchableSelectConfiguration } from '../components/combobox/combobox';
+import { SearchableSelect } from '../components/combobox/combobox';
 import './style.css';
-import './component/style.less';
+import '../components/combobox/style.less';
 
 const appContainer = document.querySelector<HTMLDivElement>('#app');
 
